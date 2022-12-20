@@ -1,7 +1,9 @@
 <html>
 	<head>
-		<title>로그인 폼 연습입니다.</title>
+		<title>Hello!</title>
 		<link rel='stylesheet' href='style.css'>
+		<link rel="icon" href="assets/star.jpg">
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 		<div id='container'>
@@ -22,7 +24,7 @@
 						PW
 					</div>
 					<div class='input'>
-						<input type='password'name='id' placeholder='비밀번호 입력'>
+						<input type='password'name='pw' placeholder='비밀번호 입력'>
 					</div>
 				</div>
 				<div>
@@ -30,10 +32,26 @@
 						PW 확인
 					</div>
 					<div class='input'>
-						<input type='password' name='id' placeholder='비밀번호 입력'>
+						<input type='password' name='pw_validate' placeholder='비밀번호 재입력'>
+					</div>
+				</div>
+				<div>
+					<div class='form_name'>
+						전화번호
+					</div>
+					<div class='input'>
+						<input type='tel' name='telephone' placeholder='전화번호 입력'>
 					</div>
 				</div>
 			</form>
+			<div id = 'submit'>
+				<div>
+					<button id='button' onClick='submit()'>
+						<strong style='font-size:22px;'>회원가입</strong>
+					</button>
+				</div>
+				
+			</div>
 		</div>
 	</body>
 </html>
