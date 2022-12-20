@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 body{
 	width:100%;
 	height:100%;
 	background-color:#eeeeee;
 	display:flex;
+	
+}
+*{
+	font-family: 'Dongle', sans-serif;
 }
 
 #container{
@@ -31,8 +35,12 @@ body{
 	align-items: center;
     justify-content: center;
 }
+#hello{
+	font-size:60px;
+	
+}
 form{
-	padding:20px;
+	padding:25px;
 	box-sizing:border-box;
 }
 form>div{
@@ -46,19 +54,26 @@ form>div{
 
 .form_name{
 	margin-right:10px;
+	font-size:16px;
 	flex:1;
+	text-align:right;
 }
 
 .input{
-	flex:1;
+	flex:4;
 }
 .input input{
-	height:30px;
+	height:40px;
+	width:100%;
+	font-size:20px;
+	border:2px solid green;
+	border-radius:2px;
+	outline:none;
 }
 
-#hello{
-	font-family: 'Bebas Neue', cursive;
-	font-size:35px;
+input:focus{
+	border-radius:10px;
+	
 }
 
 #register_form{
