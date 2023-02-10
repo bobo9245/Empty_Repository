@@ -1,0 +1,62 @@
+@font-face{
+	font-family:"GMSans";
+	src:url('assets/fonts/GmarketSansTTFLight.ttf') format("truetype");
+	font-weight:normal;
+}
+
+:root{
+	--top-color : rgb(167,103,198);
+	--bottom-color : rgb(162,161,225);
+}
+
+*{
+	font-family:'GMSans', sans-serif;
+}
+
+body{
+	overflow:hidden;
+	margin:0;
+	min-width:900px;
+	min-height:600px;
+}
+
+#container{
+	background:linear-gradient(var(--top-color),var(--bottom-color));
+	position:relative;
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+	margin:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#rectangle{
+	width:95%;
+	height:0;
+	padding-bottom:80%;
+	border-radius:30px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow:0 0 10px rgba(200,200,200,0.6);
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+#rectangle > div{
+	height:calc(100% - 60px);
+}
+
+#first{
+	flex:2;
+}
+
+#second,#third{
+	flex:3;
+}
+
+#second{
+	border-left:2px solid white;
+	border-right:2px solid white;
+}
