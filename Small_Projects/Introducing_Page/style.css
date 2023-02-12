@@ -11,6 +11,7 @@
 
 * {
 	font-family: 'GMSans', sans-serif;
+	box-sizing:border-box;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
 	overflow: hidden;
 	margin: 0;
 	display: flex;
+	flex-direction:column;
 	justify-content: center;
 	align-items: center;
 }
@@ -63,10 +65,47 @@ body {
 
 #image {
 	width: 100%;
-	border-radius: 40%;
+	border-radius: 20%;
+	box-shadow:0 0 10px white;
 }
 
 .box {
 	flex: 1;
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+	justify-content:center;
 	width: 80%;
 }
+
+.header,.section{
+	padding:calc(2% + 2px) 0 0 4%;
+	color:white;
+}
+
+.header{
+	flex:1;
+	font-size:calc(1.2vh + 0.9vw);
+	font-weight:600;
+}
+
+.section{
+	flex:3;
+	padding-top:0;
+	justify-content:flex-start;
+	font-size:calc(0.9vh + 0.6vw);
+}
+
+#name{
+	color:#555;
+}
+
+
+#introduce{
+	position:absolute;
+	top:7%;
+	font-size:calc(1.5vh + 1.2vw);
+	font-weight:900;
+	color:#ddd;
+}
+//clamp()를 사용해보기
