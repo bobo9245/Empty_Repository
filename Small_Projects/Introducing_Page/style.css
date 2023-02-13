@@ -122,6 +122,12 @@ body {
 	justify-content:flex-start;
 	font-size:1.6vh;
 	color:white;
+	display:flex;
+	flex-direction:column;
+}
+
+.little{
+	
 }
 
 #name{
