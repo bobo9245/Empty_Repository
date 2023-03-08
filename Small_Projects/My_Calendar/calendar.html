@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>달력</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="calendar_container">
+			<table class="calendar">
+				<thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr>
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
+			<tbody>
+					
+			</tbody>
+			</table>
+		</div>
+		
+		<script src='script.js'></script>
+	</body>
+</html>
