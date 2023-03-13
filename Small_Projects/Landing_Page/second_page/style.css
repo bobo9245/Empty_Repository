@@ -1,0 +1,35 @@
+@font-face{
+	font-family:"SCDream";
+	src:url('Assets/Fonts/SCDream3.otf') format("opentype");
+	font-weight:normal;
+}
+*{
+	font-family: 'SCDream', sans-serif;
+	font-weight:300;
+	padding:0;
+	margin:0;
+	color:white;
+	box-sizing:border-box;
+}
+
+body{
+	height:200vh;
+	width:97vw;
+	overflow:scroll;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#container{
+	background-color:transparent;
+	border:1px solid white;
+	width:85vh;
+	padding-top:20vh;
+	padding-bottom:20vh;
+	height:240vh;
+	display:flex;
+	/* align-items:center; */
+	justify-content:center;
+}
