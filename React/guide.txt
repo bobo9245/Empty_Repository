@@ -1,3 +1,9 @@
 https://makasti.tistory.com/83
 https://oopaque.tistory.com/191
 이거만 순서대로 따라가자
+
+새로 접속할 때에는
+nvm install 10.13.0
+npm install
+2개를 실행해주고
+그 다음에 해주기로 합시당
