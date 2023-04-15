@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+
+		button[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="id">ID</label>
+		<input type="text" id="id" name="id" placeholder="Enter your ID">
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<button type="submit" onclick="login()">Login</button>
+	</form>
+
+	<script>
+		function login() {
+			var id = document.getElementById("id").value;
+			var password = document.getElementById("password").value;
+			console.log("ID: " + id);
+			console.log("Password: " + password);
+		}
+	</script>
+</body>
+</html>

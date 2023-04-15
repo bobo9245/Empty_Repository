@@ -7,3 +7,8 @@ nvm install 10.13.0
 npm install
 2개를 실행해주고
 그 다음에 해주기로 합시당
+
+
+version 'GLIBC_2.28' not found 오류 뜨면
+https://velog.io/@shyuuuuni/node-libx8664-linux-gnulibc.so.6-version-GLIBC2.28-not-found-required-by-node-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EC%82%AC%EB%A1%80
+링크로 들어갑시다.
