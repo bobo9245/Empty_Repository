@@ -1,0 +1,36 @@
+/* CSS 스타일을 작성합니다. */
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.form-group {
+	margin-bottom: 16px;
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+input[type='text'],
+select,
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+textarea{
+	min-height:200px;
+}
+button[type='submit'] {
+	background-color: #4caf50;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button[type='submit']:hover {
+	background-color: #3e8e41;
+}

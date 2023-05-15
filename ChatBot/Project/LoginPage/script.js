@@ -26,7 +26,7 @@ function generatePassword(length = 8, uppercase = true, lowercase = true, number
 		result += characters[randomIndex];
 	}
 
-	return "비밀번호로ㅤ"+result+"ㅤ는 어떠세요?";
+	return "혹시 비밀번호ㅤ"+result+"ㅤ는 아니세요?";
 }
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -41,3 +41,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		});
 	});
 });
+
+const submitButton = document.getElementById('submitBtn');
+
+submitButton.addEventListener('click',()=>{
+	window.location.href='../Bulletin/index.html';
+})
