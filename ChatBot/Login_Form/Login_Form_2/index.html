@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login Page</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+			integrity="sha512-KYw+lvKjFbAkSW9Xs/rzFpwsKvPvOM+piK2Q+lTzivfYdwNoRsajnT+Tb2Z0jK6phRXU6mIBx6MJYe0yA+DpMg=="
+			crossorigin="anonymous"
+		/>
+		<style>
+			body {
+				background-color: #d7a7f2;
+				font-family: 'Noto Sans KR', sans-serif;
+			}
+			.container {
+				padding: 50px;
+				border-radius: 5px;
+			}
+			form {
+				height:50%;
+				width: 40%;
+				margin: 0 auto;
+				border: 1px solid #fff;
+				padding: 30px;
+				border-radius: 5px;
+				background-color: transparent;
+				color: #fff;
+			}
+			button {
+				background-color: transparent;
+				border: 1px solid #fff;
+				color: #fff;
+			}
+			input {
+				border: 0;
+				background-color: transparent;
+				color: white;
+				border-bottom: 1px solid white;
+				border-radius: 3px;
+			}
+			input::placeholder{
+				color:white;
+			}
+			.form-group>label,.form-group>div{
+				margin-bottom:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div
+			class="container-fluid d-flex justify-content-center align-items-center h-100"
+			style="background-color: #d7a7f2; padding: 50px; border-radius: 5px;"
+		>
+			<form
+				class="mt-5 pt-4 pb-4 pl-5 pr-5 bg-transparent rounded"
+				action="#"
+				style="height: 50%; margin-top: 25%;"
+			>
+				<h2 class="text-white mb-2 " style='font-size:19px;'>ChatGPT의 페이지에 오신걸 환영합니다</h2>
+				<div class="form-group row align-items-center mb-3">
+					<label for="inputEmail" class="col-sm-3 col-form-label text-white"
+						>이메일</label
+					>
+					<div class="col-sm-9">
+						<input
+							type="email"
+							class="form-control border-white rounded-3"
+							id="inputEmail"
+							placeholder="이메일을 입력하세요"
+							style="
+								background-color: transparent;
+								color: white;
+								border-width: 0 0 1px 0;
+								margin: 0;
+								padding: 0;
+							"
+						/>
+					</div>
+				</div>
+				<div class="form-group row align-items-center mb-3">
+					<label for="inputPassword" class="col-sm-3 col-form-label text-white"
+						>비밀번호</label
+					>
+					<div class="col-sm-9">
+						<input
+							type="password"
+							class="form-control border-white rounded-3"
+							id="inputPassword"
+							placeholder="비밀번호를 입력하세요"
+							style="
+								background-color: transparent;
+								color: white;
+								border-width: 0 0 1px 0;
+								margin: 0;
+								padding: 0;
+							"
+						/>
+					</div>
+				</div>
+				<button
+					type="submit"
+					class="btn btn-primary float-right mt-4"
+					style="opacity: 0.8; margin-top:30px;"
+				>
+					로그인
+				</button>
+			</form>
+		</div>
+	</body>
+</html>
