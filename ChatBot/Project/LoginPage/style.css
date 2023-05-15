@@ -52,7 +52,7 @@ input::selection {
 	background-color: transparent;
 	color: initial;
 }
-button[type='submit'] {
+#submitBtn,#signupBtn {
 	display: block;
 	background-color: transparent;
 	color: #4caf50;
@@ -62,6 +62,6 @@ button[type='submit'] {
 	border-radius: 4px;
 	cursor: pointer;
 }
-button[type='submit']:hover {
+#submitBtn:hover,#signupBtn:hover {
 	background-color: #45a049;
 }
